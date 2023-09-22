@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formatting Content</title>
+    </head>
+    <body>
+        <header>
+            <h2>Introduction to HTML Formatting</h2>     
+        </header>
+        <section>
+            <h3>Block level vs Inline elements</h3>
+            <p>
+                The <em>&lt;p&gt; element</em> is a <strong>block level element</strong>. It occupies the entire horizontal space of its parent element, and vertical space equal to the height of its contents, thereby creating a "block".
+            </p>
+            <p>
+                On the other hand, the <em>&lt;strong&gt; element</em> is an <strong>inline element</strong>. Inline elements display in a line. They do not force the text after them to a new line.
+            </p>
+        </section>
+
+        <section>
+            <h3>HTML Symmetry</h3>
+            <p>
+                <strong><em>This is my bolded and italic sentence</em></strong>
+            </p>
+            <p>
+                This is a block-level section of text<br>
+                <em>This sentence I want to be italic though</em>
+            </p>
+        </section>
+
+        <section>
+            <h3>HTML Lists</h3>
+
+            <h5>An Ordered List</h5>
+            <ol>
+                <li>Why are people so scared of mice, yet we all love Mickey Mouse?</li>
+                <li>Wouldn't it be smart to make the sticky stuff on envelopes taste like chocolate?</li>
+                <li>Why are the commercials for cable companies on cable but not on regular television? Don't they want the people without cable to buy the cable?</li>
+                <li>Isn't it funny how the word 'politics' is made up of the words 'poli' meaning 'many' in Latin, and 'tics' as in 'bloodsucking creatures'?</li>
+                <li>What happens if you put this side up face down while popping microwave popcorn?</li>
+                <li>Why is chopsticks one of the easiest songs to play on the piano, but the hardest thing to eat with?</li>
+                <li>How come you play at a recital, but recite at a play?</li>
+                <li>If a fork were made of gold would it still be considered silverware?</li>
+                <li>Why does shaped macaroni taste better than the normal kind?</li>
+                <li>Why is vanilla ice cream white when vanilla extract is brown?</li>
+                <li>Why can't you get a tan on your palms?</li>
+                <li>If you were born exactly on 12:00 midnight on December 31<sup>st</sup> - January 1<sup>st</sup>, which year would you say you were born in?</li>
+                <li>Do the different "M&M's"&trade; colors taste different?</li>
+            </ol>
+            
+            
+            <h5>An Unordered List</h5>
+            <ul>
+                <li>Bike tools</li>
+                <li>Air Pump</li>
+                <li>Bike Wrench</li>
+                <li>Spare Tube</li>
+                <li>Food</li>
+                <li>Power Bars</li>
+                <li>Water</li>
+                <li>Trail Mix</li>
+            </ul>
+
+            <h5>Some Interesting Terminology</h5>
+            <dl>
+                <dt>The Internet</dt>
+                <dd>The Internet can be thought of as a technical infrastructure -- the computers, cables, networks, and switching mechanisms for one computer to communicate with another computer<br></dd>
+                <dt>The World Wide Web?</dt>
+                <dd>the web is the collection of hundreds of millions of documents, all of which reside on the Internet and are written in some form of HTML<br></dd>
+                <dt>HTML</dt>
+                <dd>HTML stands for Hypertext Markup Language and is the language that all web pages are written<br><br></dd>
+            </dl>
+        </section>
+
+        <section>
+            <h3>Other Specialized Elements</h3>
+            <pre>
+                Usually, all new lines and spaces (beyond one space) are ignored
+                but...
+                you can use the &lt;pre&gt; element to preserve the formatting - notice even the indentation is displayed on the page! Not terribly useful :(
+            </pre>   
+
+            <code>
+            // This is a code block<br>
+            let myMessage = "Hello World!";<br>
+            window.alert(myMessage);
+            </code>
+
+            <p>
+                Other specialized elements: blockquote / cite / small
+            </p>
+
+            <p>
+                <time datetime="1974-03-17">March 17th, 1974</time>
+                <time datetime="12:30">Half past noon</time>
+            </p>
+        </section>
+        
+    </body>
+</html>
